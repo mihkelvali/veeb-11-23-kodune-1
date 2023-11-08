@@ -1,7 +1,8 @@
-function RaamatuDetail() {
+function RaamatuDetail(props) {
+    console.log(props);
     return (
         <div style={{ textAlign: 'left', maxWidth: 400 }}>
-            <h2>1984</h2>
+            <h2>{ props.pealkiri }</h2>
             <div>George Orwell</div>
             <div>
                 <p>Winston Smith toes the Party line, rewriting history to satisfy the demands of the Ministry of Truth. With each lie he writes, Winston grows to hate the Party that seeks power for its own sake and persecutes those who dare to commit thoughtcrimes. But as he starts to think for himself, Winston can’t escape the fact that Big Brother is always watching...</p>
